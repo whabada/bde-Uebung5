@@ -13,3 +13,18 @@ vmd
 ``` 
 
 Nach der Exportierung und Ausführung der ueb5.jar haben wir folgendes Bild: 
+
+``` 
+hbase(main):002:0> list
+TABLE                                                                                                                                                 
+Translations                                                                                                                                          
+analytics_demo                                                                                                                                        
+document_demo                                                                                                                                         
+imageData                                                                                                                                             
+vmd                                                                                                                                                   
+5 row(s) in 0.0480 seconds
+
+=> ["Translations", "analytics_demo", "document_demo", "imageData", "vmd"]
+```
+
+Ein Blick in die Table zeigt, dass 
